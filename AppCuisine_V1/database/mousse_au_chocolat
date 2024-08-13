@@ -1,0 +1,22 @@
+{
+    "nom_recette": "mousse_au_chocolat",
+    "ingredients": [
+        {
+            "nom": "Chocolat noir",
+            "quantite": 200,
+            "unite": "grammes"
+        },
+        {
+            "nom": "Sucres vanille",
+            "quantite": 2,
+            "unite": "sachets"
+        },
+        {
+            "nom": "Oeufs",
+            "quantite": 3,
+            "unite": "unite"
+        }
+    ],
+    "tps_cuisson": 15,
+    "nb_personnes": 4
+}

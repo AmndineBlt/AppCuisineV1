@@ -1,0 +1,53 @@
+Création d'une application de recette de cuisine
+
+Etape 1 : Application recette de cuisine
+- Enregistrer une recette de cuisine avec :
+   - liste des ingrédients
+   - grammage (g, L)
+   - temps de préparation (min, h)
+   - nombre de personnes
+- Pouvoir ajuster le nombre de personnes
+- Ajouter des images (base 64) / commentaires
+- Enregistrer ou supprimer une recette
+- Modifier les ingrédients
+
+Création d'une classe Recette avec :
+- le nom de la recette
+- les ingrédients (nom, quantité, grammages)
+    - ajout d'une image pour chaque ingredient
+- le temps de cuisson
+- le nombre de personnes
+- ajout d'une image
+- ajout d'un commentaires
+
+Création des méthodes pour :
+- Ajouter des ingrédients
+    - avec ajout d'une image
+- Définir un temps de cuisson
+- Définir le nombre de personnes
+    - formule : régle de 3 ((nv_nb_personne * grammes) / nb_personnes)
+- Ajouter une image
+- Ajouter un commentaires
+- Sauvegarder la recette
+- Afficher la recette
+
+
+
+
+Etape 2 : Adapter aux jeux vidéos
+- Avoir plusieurs onglets (un pour chaque jeux)
+- Ajout des prix des matières premières 
+
+
+
+Sérialisation : 
+Serialization is the process of encoding the from naive data type to JSON format. The Python module json converts a Python dictionary object into JSON object, and list and tuple are converted into JSON array, and int and float converted as JSON number, None converted as JSON null.  
+
+Syntaxe: json.dump(dict, file-pointer)
+Paramètres:
+    • dictionnaire – nom du dictionnaire qui doit être converti en objet JSON. 
+    • pointeur de fichier – pointeur du fichier ouvert en mode écriture ou appendice
+a
+Déserialisation :
+Deserialization of JSON object: It is just the opposite of serialization, meaning converting a JSON-formatted string back to a Python Object.
+

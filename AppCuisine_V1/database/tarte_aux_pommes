@@ -1,0 +1,22 @@
+{
+    "nom_recette": "tarte_aux_pommes",
+    "ingredients": [
+        {
+            "nom": "Pommes",
+            "quantite": 3,
+            "unite": "unite"
+        },
+        {
+            "nom": "Compte de pommes",
+            "quantite": 300,
+            "unite": "grammes"
+        },
+        {
+            "nom": "Sucre",
+            "quantite": 3,
+            "unite": "cas"
+        }
+    ],
+    "tps_cuisson": 45,
+    "nb_personnes": 6
+}
